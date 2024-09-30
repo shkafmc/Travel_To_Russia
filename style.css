@@ -561,6 +561,10 @@
         height: 200px;
         flex-direction: column;
         gap: 32px;
+        width: 300px
+    }
+    .nav__links li{
+        width: fit-content;
     }
     .footer__link{
         font-size: 24px;
