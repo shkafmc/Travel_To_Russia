@@ -3,7 +3,7 @@
 .page {
     background-color: #2A2C2F;
     /* width: 1280px; */
-    /* margin: auto; */
+    margin: auto;
     font-family: "Inter";
     color: white;
 }
@@ -31,7 +31,7 @@
 @media screen and (width<=320px){
     .header{
         width: 288px;
-        margin: auto;
+/*         margin: auto; */
     }
     .header__buttons{
         margin-top: 16px;
@@ -178,7 +178,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin: auto;
+    margin: auto; /*FIXME: Не срабатывает */
     grid-gap: 16px;
     margin-top: 92px;
 }
@@ -224,7 +224,7 @@
     .grid__item{
         width: 288px;
         height: 216px;
-        margin: auto;
+/*         margin: auto; */
         margin-top: 12px;
     }
 }
