@@ -179,6 +179,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin: auto;
+    grid-gap: 16px;
     margin-top: 92px;
 }
 
